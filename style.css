@@ -1,0 +1,30 @@
+body{
+    background-color: #020202;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+
+}
+.zero{
+    font-size: 250px;
+    margin-bottom: 30px;
+    color: white;
+}
+.counter{
+    font-size: 3em;
+
+}
+.Decrese,.Reset,.Increse{
+    font-size: 2em;
+    border: 4px solid black;
+    background-color: #ccff;
+    cursor: pointer;
+    
+
+
+}
